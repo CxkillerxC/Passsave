@@ -1,7 +1,5 @@
 # Passsave
-simple local password save 
-
-# 🔐 Passwort-Manager (lokal, Python)
+simple local password save (lokal, Python)
 
 Ein sicherer, komplett lokal laufender Passwort-Manager mit grafischer
 Oberfläche. Keine Cloud, kein Server, kein Internetzugriff nötig.
@@ -19,7 +17,7 @@ Oberfläche. Keine Cloud, kein Server, kein Internetzugriff nötig.
 - Passwort-Stärkeanzeige
 - Ein-Klick-Kopieren von Benutzername/Passwort in die Zwischenablage
   (Zwischenablage wird nach 20 Sekunden automatisch geleert)
-- **Auto-Ausfüllen (Auto-Type)**: tippt Benutzername + Tab + Passwort
+- **(Auto-Type)**: tippt Benutzername + Tab + Passwort
   automatisch in ein beliebiges Browser- oder App-Fenster – wie bei
   KeePass, ganz ohne Browser-Erweiterung (siehe unten)
 - Automatische Sperre nach 5 Minuten Inaktivität
@@ -104,7 +102,7 @@ klicken.
 - Windows/macOS: funktioniert direkt nach `pip install pyautogui`.
 - Linux: benötigt eine **X11**-Sitzung. Unter reinem Wayland (ohne
   XWayland) funktioniert die Tastatursimulation eventuell nicht – nutze
-  in dem Fall die "📋 Kopieren"-Buttons als Alternative.
+  in dem Fall die "Kopieren"-Buttons als Alternative.
 - macOS verlangt zusätzlich, dass du der Python-App unter
   **Systemeinstellungen → Datenschutz & Sicherheit → Bedienungshilfen**
   Zugriff erlaubst (sonst kann nichts simuliert werden).
